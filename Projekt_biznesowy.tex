@@ -1,0 +1,79 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel} 
+\usepackage[utf8]{inputenc} 
+\let\lll\undefined
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{pdfpages}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{latexsym}
+\pagestyle{fancy} 
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\newcommand{\mainmatter}{\clearpage \cfoot{\thepage\ of \pageref{LastPage}}
+\pagenumbering{arabic}}  
+\begin{document}
+
+	\begin{titlepage}
+
+		\begin{center}
+    			\vspace{3cm}
+    					\Large\textit{\textbf{Proces biznesowy na przykładzie:\newline Rekrutacji nowego pracownika do firmy}}
+   			\vspace{4cm}
+		\end{center} 
+
+	\end{titlepage}
+\newpage
+\mainmatter
+\setlength{\headheight}{15pt}
+\doublespacing
+\tableofcontents
+\newpage
+
+\linespread{0.5}
+\setlist{nolistsep}
+
+\section{Wstęp}
+\section{Definicja w języku naturalnym}
+	\hspace*{1cm} W tym dokumencie został opisany proces biznesowy polegający na rekrutacji nowego pracownika do firmy. Proces ten  przedstawia cały łańcuch działań rekrutera, ustanawia zasady interakcji pomiędzy kandydatem a pracodawcą i działem kadr.\newline
+	\hspace*{1cm} Dobór pracowników jest główną rolą działu zarządzania personelem. Budowanie zespołu rozpoczyna się od procesu poszukiwania odpowiednich osób dla firmy. Poniższy opis przedstawi proces rekrutacji kandydata wyrażającego wstępną chęć podjęcia pracy na wolnym stanowisku w firmie.\newline
+	\hspace*{1cm} Wszystkie przepływy informacji projektu biznesowego podzielone są między 3 role: Kandydat, HR Manager oraz Pracodawca.\newline
+	\hspace*{1cm}  Proces rozpoczyna się od złożenia wniosku o pracę przez kandydata. Po rozpatrzeniu wniosku kierownik działu kadr prosi kandydata o przesłanie CV do rozpatrzenia. CV jest rozpatrywane przez samego kierownika działu HR pod kątem zgodności z podstawowymi wymaganiami dotyczącymi stanowiska (kraj i miasto zamieszkania, wykształcenie wyższe, wymagania dotyczące wynagrodzenia itp.). Jeśli kandydat spełnia podstawowe wymagania, CV zostaje przekazane pracodawcy w celu oceny kandydata pod kątem jego konkretnych umiejętności wymaganych na danym stanowisku takich jak znajomość konkretnych technologii, doświadczenie z wybranym oprogramowaniem, posiadanie wymagnaych certyfikatów itp. Na podstawie dostarczonego przez kandydata CV, przeprowadzana jest ocena kandydata pod kątem spełniania wymagań danego stanowiska.\newline
+	\hspace*{1 cm} W przypadku gdy kandydat nie spełnia większości wymagań pracodawca odrzuca wniosek tego kandydata. W przypadku spełnienia częśco wymagań danego stanowiska pracodawca może zaproponować inne warunki przyjęcia takiego kandydata na takie stanowisko, bądż też zaproponować mu pracy na innym stanowisku, do którego umiejętności kandydata bardziej odpowiadaja. W przypadku spełnienia znacznej więkoszości wymagań pracodawca składa kandydatowi propozycję rozmowy kwalifikacyjnej.\newline
+	\hspace*{1 cm}  W celu przeprowadzenia rozmowy kwalifikacyjnej kierownik działu kadr wysyła do kandydata prośbę o potwierdzenie chęci wzięcia udziału w dalszej rekrutacji. W przypadku gdy kandydat jest dalej zaintersowany daną pracą, przeprowadzana jest rozmowa kwalifikacyjna, która celem jest sprawdzenie faktycznej wiedzy kandydata w porównaniu z informacjami zawartymi w jego CV oraz wymaganiami danego stanowsika. Po przeprowadzonej rozmowie ustalana jest zgodność kandydata z wymaganiami danego stanowiska.\newline
+	\hspace*{1 cm} W przypadku pomyślnie przeprowadzonmej rozmowy, dochodzi do ustalenia warunków pracy pomiędzy pracodawcą a kandydatem. Jeśli ustalone warunki spełniają oczekiwania obydwu stron dochodzi do zatrudnienia kandydata na dane stanowisko. W przeciwnym wypadku, możliwe są dwa przypadki: 
+	\begin{enumerate}
+		\item Pracodawca zmieni ostateczne warunki na satysfakcjonujące dla kandydata (jeśli kandydat wydaje się być cennym pracownikiem dla pracodawcy);
+		\item Pomiędzy kandytatem a pracodowacą nie dochodzi do porozumienia w związku z warunkami pracy, co powoduje dalszy proces poszukiwania pracownika.
+	\end{enumerate},
+
+\subsection{Etap 1. Złożenie przez klienta do działu zarządzania personelem wniosku o wybór kandydata.}
+\subsection{Etap 2. Wyszukiwanie / selekcja personelu.}
+\subsection{Etap 3. Wstępny wybór personelu do zadeklarowanego wakatu.}
+\subsection{Etap 4. Testy psychologiczne (jeśli są dostarczone).}
+\subsection{Etap 5. Wywiad z kierownikiem.}
+\subsection{Etap 6. Weryfikacja informacji o kandydacie przez służby bezpieczeństwa.}
+\subsection{Krok 7. Weryfikacja rekomendacji.}
+\subsection{Etap 8. Podejmowanie decyzji w sprawie przyjęcia kandydata.}
+\subsection{Etap 9. Rejestracja do pracy.}
+
+\section{Model BPMN}
+\section{Model Enterprise Architect Sparx}
+\section{Symulacja procesu w Enterprise Architect}
+				\href{https://www.youtube.com/watch?v=f0izAg3FUcM&app=desktop} {Business Process Simulation with Enterprise Architect} \newline
+\section{Wnioski} 
+
+
+\label{LastPage}~
+\label{LastPageOfBackMatter}~		
+\end{document}
