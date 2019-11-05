@@ -2,3 +2,5 @@
 Rekrutacji nowego pracownika do firmy
 
 ### Wszystkie szczegóły są opisane w [Pdfe](./Dokumentation.pdf)
+
+### Model [BPML](./Model.eapx)
